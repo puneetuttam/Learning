@@ -1,0 +1,41 @@
+Chapter 1 Creating our first website
+
+We start building a website by creating a file named index.html. It is a special filename which is presented when the website root address is typed
+
+A Basic HTML page
+
+<!Doctype html>                             -> specifies this is an html5 doc
+<html>                                      ->root of html page
+    <head>                                  -> contains page metadata
+        <title> </title>                    -> condtains title
+    </head>                                 -> Cosing tag of head
+    <body>                                  ->The main body of the page(rendered by the browser)
+    <H1>This is heading</H1>                -> heading tags
+    <p> my paragrabh</p>                    -> paragraph tag
+    </body>                                 ->closing body tag 
+</html> 
+
+
+A tags is like a container for either content or other HTML tags
+
+HTML Docs   -> Browser  -> Redndered page
+
+IMPORTANT NOTES
+    Head and body are children of HTML tags
+    HTML is the parent of head and body tags
+    Most of the HTML elements have opening and closing tags with content in it.
+    Some HTML tags have no content. These are called Empty elements eg<br>
+    We can either user htm or html extension for our html files
+    You can use "Inspect Element" or view Page Source" option from chrome to look into a website's HTML code.
+
+    HTML element=>start tags + Content + End tags
+
+Comments in HTML
+
+Comments in HTML are used to mark text which should not be parsed. They can help documents the sourcce code
+
+<!--Html comment -->
+SHORTCUT ctrl+forward slash 
+
+Case Sensitive
+HTML is a case insensitive Language
