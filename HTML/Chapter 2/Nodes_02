@@ -1,0 +1,78 @@
+Chapter 2 - Basic HTML tags
+
+We can add elements inside the body to define the page layout.
+
+HTML Element
+Everything from starting to the ending tag
+
+<body> opening tag
+ content
+</body> closing tag
+
+HTML attributes
+Used to add more information corresponding to an HTML tag
+Example : <a href="https://xyz.com/"> XYZ </a>
+
+here,
+a= anchor tag
+href= attribute
+
+We can either use single or double quotes in attribures
+
+We can either use single or double quotes in attributes
+
+The Heading tag
+Heading tag is used to mark heading in HTML from h1 to h5, we have tags for the most important to the least important heading
+
+<h1>Most important heading</h1>
+<h2>Another Important heading</h2>
+<h3>Another Important heading</h3>
+<h4>Another Important heading</h4>
+<h5>Another Important heading</h5>
+<h6>Another Important heading</h6>
+
+NOTE: we should not use HTML heading to make text thick and bold
+
+The Paragraph Tag
+Paragraph are used to add pragraphs to an HTML page
+<p> The is para</p>
+
+The Anchor Tag
+The Anchor tag is used to add links to an existing content inside an HTML page
+<a href="https://google.com"> GUGURU </a>
+
+The img Tag
+img tag is used to add images in an HTML page
+<img src="image.jpg">
+
+Bold, italic and uderline tags
+We can use bold, italic and uderline tags to highlight the text as follows
+<b>BOLD</b>
+<i>Itlic</i>
+<u>Uderline</u>
+
+break tag ie br 
+the br tag is used to create line breaks in an HTML documents
+
+Big and small tags
+We can make the text a bit larger and bit smaller using big and small tags respectively
+
+hr tag
+<hr> tag in HTML is used to create a horizontal ruler ofter used to seperate the context
+
+Subscript and superscript
+We can add subscript and superscripts in HTML as follows:
+<sub>this</sub> is subscript
+<sup> this </sup> is super script
+
+
+pre tag
+HTML always ignores extra spaces and newlines. In order to disply a piece of text as is, we use pre tag
+<pre>
+    This is written
+    using pre
+    tag
+</pre>
+
+I will rendered as is
+
